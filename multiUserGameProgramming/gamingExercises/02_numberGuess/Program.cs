@@ -1,4 +1,4 @@
-// Micah Lecount, Program template, v0.0
+// Micah Lecount, Program template, v0.1
 /*
 Generate secret number from a defined range of numbers (i.e. 0-10-50, 0-100)
 Print game instructions including range and num. of guess allowed.
@@ -20,3 +20,102 @@ Determine if guess is correct or not.
                 CPU wins the round.
             }
         }
+*/
+using System;
+
+namespace numberGues
+{
+    
+    class numberGuess
+    {
+
+        static void Main(string[] args)
+        {
+            int
+            int
+            int
+            int
+            int
+            string
+            int
+            int
+
+            console.Writeline
+            console.Writeline
+            
+            //Difficulty Selectoin
+            Console.Writeline
+            difficulty = Console.Readline();
+            // Console.Readline()will save STRING by default
+
+            Console.Writeline("You have selected " + difficulty);
+            if (difficulty == "Easy") {
+                rangeMin = 0;
+                rangMax = 10;
+                numGuess = 4
+            } else if (difficulty == "Normal") {
+                rangeMin = 0;
+                rangemax = 25;
+                numGuess = 4;
+            } else if (difficulty == "Hardl") {
+                 rangeMin = 0;
+                rangemax = 50;
+                numGuess = 3;
+            } else {
+                // Code to run if no difficulty is selected.
+            }
+               
+
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
