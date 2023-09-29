@@ -1,4 +1,4 @@
-// Micah Lecount, Program template, v0.1
+// Micah Lecount, Program template, v0.2
 /*
 Generate secret number from a defined range of numbers (i.e. 0-10-50, 0-100)
 Print game instructions including range and num. of guess allowed.
@@ -58,14 +58,52 @@ namespace numberGues
                 rangemax = 25;
                 numGuess = 4;
             } else if (difficulty == "Hardl") {
-                 rangeMin = 0;
+                rangeMin = 0;
                 rangemax = 50;
                 numGuess = 3;
             } else {
                 // Code to run if no difficulty is selected.
+                Console.Writeline("No difficulty selected correctly,defaulting to Normal.\n");
+                rangeMin = 0;
+                rangemax = 25;
+                numGuess = 4;
             }
-               
+            Console.Writeline("Minimum: " + rangeMin);
+            Console.Writeline("Maximum: " + rangeMax);
+            Console.Writeline("Num. Guesses: " + numGuesses);
 
+            // START THE MATCH!
+            while (playerScore != 3 && cpuScore != 3) {
+                //
+                //
+                random rndNum = new Random();
+                secretNumber = rndNum.Next(rangeMin, rangeMax);
+                Console.Writeline("")
+                Conmsole.Writeline("")
+                // START EACH ROUND
+                for (int i = 0; i < numGuesses ; i++) {
+                    //
+                    Console.Writeline
+                    Console.Writeline
+                    playerGuess = System.Convert.ToInt32(Conmsole.Readline())
+                    if (playerGuess == secretNumber) {
+                        //
+                        playerScore++;
+                        break;
+                    } else {
+                        if (playerGuess > secretNumber) {
+                            Conmsole.Writeline("Your guess is too high!\n");
+                        } else {
+                            Conmsole.Writeline("Your guess is too low!\n");
+                        }
+                    }
+                    numAttempts++;
+                }
+                if (playerGuess != secretNumber) {
+                    cpuScore++;
+                    //
+                }
+            }
         }
     }
 }
