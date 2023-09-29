@@ -1,4 +1,4 @@
-// Micah Lecount, Program template, v0.3
+// Micah Lecount, Program template, v0.4
 /*
 Generate secret number from a defined range of numbers (i.e. 0-10-50, 0-100)
 Print game instructions including range and num. of guess allowed.
@@ -74,20 +74,20 @@ namespace numberGues
 
             // START THE MATCH!
             while (playerScore != 3 && cpuScore != 3) {
-                //
-                //
+                // Any code you want to run BEFORE each round goes here.
+                // Gnerate SECRET NUMBER
                 random rndNum = new Random();
                 secretNumber = rndNum.Next(rangeMin, rangeMax);
-                Console.Writeline("Player Score: " + playerScore + "\n"")
-                Conmsole.Writeline("CPU Score: " + cpuScore + "\n")")
+                Console.Writeline("Player Score: " + playerScore + "\n");
+                Conmsole.Writeline("CPU Score: " + cpuScore + "\n");
                 // START EACH ROUND
                 for (int i = 0; i < numGuesses ; i++) {
-                    // Code to guess
+                    // Code to guess number goes here.
                     Console.Writeline("You have used " + numAttempts + "this round.\n");
                     Console.Writeline("You must guess between " + rangeMin + "and " + rangeMax + ".\n");
                     playerGuess = System.Convert.ToInt32(Conmsole.Readline())
                     if (playerGuess == secretNumber) {
-                        //
+                        // Print a success message!
                         playerScore++;
                         break;
                     } else {
