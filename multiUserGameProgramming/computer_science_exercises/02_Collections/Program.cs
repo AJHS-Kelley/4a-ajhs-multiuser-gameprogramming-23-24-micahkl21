@@ -1,4 +1,4 @@
-﻿// 02_Collections, Lecount Micah, 10-5-23, v0.2
+﻿// 02_Collections, Lecount Micah, 10-5-23, v0.3
 using Systems;
 
 namespace _02_collections
@@ -27,12 +27,20 @@ namespace _02_collections
             Console.Writeline("The elements for each array are:\n")
             Console.Writeline("breakfastFoods: \n" + String.Join(", ", breakfastFoods));
             Console.Writeline(); 
-            Console.Writeline("testScores:\n" + String.Join(", ", breakfastfoods));
+            Console.Writeline("testScores:\n" + String.Join(", ", testScores));
             Console.Writeline();
             Console.Writeline("GPA: \n" + String.Join(", ", GPA));
             Console.Writeline(); 
 
-
+            /* Print Array Contents -- Each Element on Seperate Line
+            Console.Writeline("The elements for each array are:\n")
+            Console.Writeline("breakfastFoods: \n" + String.Join(", ", breakfastFoods));
+            Console.Writeline(); 
+            Console.Writeline("testScores:\n" + String.Join(", ", testScores));
+            Console.Writeline();
+            Console.Writeline("GPA: \n" + String.Join("\n", GPA));
+            Console.Writeline();
+            */
 
 
 
