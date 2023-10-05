@@ -1,4 +1,4 @@
-﻿// 02_Collections, Lecount Micah, 10-5-23, v0.1
+﻿// 02_Collections, Lecount Micah, 10-5-23, v0.2
 using Systems;
 
 namespace _02_collections
@@ -23,6 +23,23 @@ namespace _02_collections
             int[] testScores = (95, 100, 25, 15, 27, 35);
             float[] GPA = (3.14f, 2.25f, 1.74f, 1.99f, 099f, 4.25f);
             
+            // Print Array Contents -- All Elemtns on  Sinlge Line
+            Console.Writeline("The elements for each array are:\n")
+            Console.Writeline("breakfastFoods: \n" + String.Join(", ", breakfastFoods));
+            Console.Writeline(); 
+            Console.Writeline("testScores:\n" + String.Join(", ", breakfastfoods));
+            Console.Writeline();
+            Console.Writeline("GPA: \n" + String.Join(", ", GPA));
+            Console.Writeline(); 
+
+
+
+
+
+
+
+
+
         }
     }
 }
