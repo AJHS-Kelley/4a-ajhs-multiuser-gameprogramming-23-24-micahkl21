@@ -1,4 +1,4 @@
-// Lecount Micah, Program Template, v0.3
+// Lecount Micah, Program Template, v0.4
 using System; 
 /*
 Void Method
@@ -54,4 +54,25 @@ namespace MethodsParameters
             Console.WriteLine("I am going to cook " + num + "hamburgers. In");
         }
 
+        // Named Arguments
+        static void AlIMyChildren(string childl, string child, string chiLd3)
+        {
+            Console WriteLine("My favorite child is " + child);
+        }
+
+        // METHOD OVERLOADING
+        // Find Sum of Int
+        static int FindSum(int x, int y)
+        {
+            int sum = × + y;
+            Console.WriteLine("Sum: " + sum);
+            return sum;
+        }
+
+        // Find Sum of Double 
+        static double FindSum(double x, double y)
+        {
+            double sum = × + y;
+            Console.WriteLine("Sum: " + sum):
+        }
 }
