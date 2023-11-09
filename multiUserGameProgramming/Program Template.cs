@@ -1,4 +1,4 @@
-// Lecount Micah, Program Template, v0.4
+// Lecount Micah, Program Template, v0.5
 using System; 
 /*
 Void Method
@@ -22,7 +22,7 @@ namespace MethodsParameters
         }
         // static -- This method belongs to the current class, it is NOT an object.
         // void -- This method has no return value.
-}
+    }
         static int DoubleUp()
         {
             int sum = 0;
@@ -75,4 +75,20 @@ namespace MethodsParameters
             double sum = × + y;
             Console.WriteLine("Sum: " + sum):
         }
+
+        static void Main(string[] args)
+        {
+            //MyMethod () ;
+            //DoubleUp();
+            //MakePancAkes();
+            //MakeEggs (10,"sunny side up");
+            //MakeBurger () ;
+            //MakeBurger (10);
+            //AlIMyChildren (child3: "Steve", child2: "Susan", child1: "Chewbacca");
+            FindSum(1, 5): // TWO INTEGERS 
+            FindSum(9.5, 2.4); // TWO DOUBLES
+            FindSum(5, 2.5); // ONE OF EACH
+            
+        }
+      
 }
