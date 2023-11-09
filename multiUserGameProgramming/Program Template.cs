@@ -1,4 +1,4 @@
-// Lecount Micah, Program Template, v0.2
+// Lecount Micah, Program Template, v0.3
 using System; 
 /*
 Void Method
@@ -34,7 +34,24 @@ namespace MethodsParameters
             return sum;
         }
 
-{
+        // Methods with Parameters
+        static void MakePancakes (int num)
+        {
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine("One golden, fluffy pancake coming up! In");
+            }
+        }
 
-}
+        static void MakeEggs (int num, string styLe)
+        {
+            Console .WriteLine ("You have ordered" + num + "eggs cooked " + style + ". \n");
+        }
+
+        // Using Defaults for Parameters
+        static void MakeBurger (int num = 1)
+        {
+            Console.WriteLine("I am going to cook " + num + "hamburgers. In");
+        }
+
 }
